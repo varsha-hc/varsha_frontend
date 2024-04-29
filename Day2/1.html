@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varsha's first page</title>
+    <style>
+        div{
+            background-color: white;
+            }
+        .container{
+            width: 200%;
+            height: 200px;
+            position: relative;
+            overflow : hidden;
+        }
+        .draggable{
+            width: 200px;
+            height: 50px;
+            background-color : white ;
+            cursor: grab;
+            position: absolute;
+            left: 20%;
+        }
+        .draggable input[type="text"]
+        {
+            width: 100%;
+            height: 100%;
+            border: none;
+            outline: none;
+            background: transparent;
+        }
+                
+    </style>
+</head>
+<body bgcolor="pink">
+<h1 align="center">Connect With Our Digital Marketing Experts</h1>    
+<p>Lorem ipsum dolor sit amet adipisicing elit. Totam quod quaerat similique, beatae mollitia recusandae itaque eius dolor amet nostrum! Ad quis nemo labore consectetur distinctio provident eum, a quas!</p>
+<div>
+<form>
+    Name<br><input type="text" name="name1" placeholder="Enter your name"><br><br> 
+    Phone<br><input type="phone" name="phoneno" placeholder="Enter your phone number"><br><br>
+    Email<br><input type="email" name="email" placeholder="Enter your name"><br><br> 
+</form>
+</div>
+<div class="container">
+    <div id="draggable" class="draggable">
+        Message<br><textarea rows="10px" cols="20px" name="textarea"></textarea><br> 
+    </div>
+</div>
+<div>
+    <input type="button"  value="Get Started">
+</div>
+</body>
+</html>

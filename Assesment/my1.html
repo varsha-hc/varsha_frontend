@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        
+        main{
+            display: flex;
+        }
+        .home{
+            height: 100vh;
+            width: 20vw;
+
+            label
+            {
+                top: -6px;
+                
+            }
+        }
+    </style>
+
+    <link rel="stylesheet" href="./my.css" type="text/css">
+</head>
+<body>
+    <main>
+    <div class="home">Home<br><br>
+        <div>My Accounts</div>
+        <div>Personal Details</div>
+        <div>Bussiness Details</div>
+    </div>
+    <div class="border border-1">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                    <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+                  </svg></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                  </svg></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: orange;">My Account</a>
+              </li> 
+
+                 
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Profile</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Bank Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Change Password</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pickup Address</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Store Setting</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<div id="boxes">
+ 
+    <form class="form-md row-g-12">
+        <div class="form-group">
+          <input id="form_name1" class="form-control" type="text"   required>
+          <label for="form_name1">E-mail ID<span class="gl-form-asterisk"></span></label>
+        </div>
+        
+        <div class="form-group">
+          <input id="form_name2" class="form-control" type="text"  placeholder="" required>
+          <label for="form_name2">Old Password<span class="gl-form-asterisk"></span></label>
+        </div>
+        <div class="form-group">
+            <input id="form_name1" class="form-control" type="text"   required>
+            <label for="form_name1">New Password<span class="gl-form-asterisk"></span></label>
+          </div>
+          
+          <div class="form-group">
+            <input id="form_name2" class="form-control" type="text"  placeholder="" required>
+            <label for="form_name2">Re-enter New Password<span class="gl-form-asterisk"></span></label>
+          </div>
+          
+      </form>
+      <div class="col-3 d-flext-center">
+      <input type="button" value="Update Password">
+      </div>
+       </div>
+</main>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
